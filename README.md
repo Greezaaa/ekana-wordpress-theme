@@ -4,15 +4,14 @@
 Tema personalizado para Ekana, realizado desde scratch de  <a href="https://underscores.me/">_undescore</a>
 
 
-### Se realizo
-- _Diseño en Figma / Adobe Photoshop / Adobe Illustrator
+- _Diseño se realizo en Figma / Adobe Photoshop / Adobe Illustrator
 - _Lenguajes de programacion: PHP 7.2 / JavaScript / SCSS
-- _Traducion con JavaScript y JSON
+- _Traductor echo con JavaScript / JSON
 - _Custom PostType "Agenda KZK"
 - _Advanced Custom Field 
-- _Optimizacion SEO  
-- _PageSpeed Insights 
-- _Fotos de personal y de las instalaciónes
+- _Optimizacion SEO / YOATS 
+- _PageSpeed Insights score 96 
+- _Fotos propias de personal y de las instalaciónes
 
 <img src="https://user-images.githubusercontent.com/55212034/204116343-c441d93d-2dc7-4717-ac67-827edafe3086.gif" alt="drawing" width="800"/>
 
