@@ -1,0 +1,127 @@
+#respond {
+  h3 {
+    display: block;
+    padding: 2rem;
+    text-transform: uppercase;
+
+    text-align: center;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .comment-notes {
+      font-size: 1.6rem;
+      font-style: italic;
+      width: 100%;
+      text-align: center;
+    }
+    .comment-form-comment {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      textarea {
+        width: 80%;
+        border-radius: 1rem;
+      }
+    }
+    .comment-form-author {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 40%;
+
+      input {
+        width: 80%;
+        margin-left: 0;
+        display: block;
+      }
+    }
+   
+    .comment-form-email {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-end;
+      width: 40%;
+      input {
+        width: 80%;
+        margin-right: 0;
+        display: block;
+      }
+    }
+    .comment-form-cookies-consent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
+      font-size: 1.6rem;
+      font-style: italic;
+      width: 100%;
+      text-align: center;
+    }
+    .form-submit {
+      width: 50%;
+      line-height: 4rem;
+      margin: 0;
+      padding: 0;
+      input {
+        width: 100%;
+        border-radius: 1rem;
+        height: 4rem;
+        background-color: $maindark5;
+        border: .2rem solid $mainlight1;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        line-height: 2rem;
+        font-weight: bold;
+        color: $maindark2;
+        transition: .2s ease-in-out;
+        &:hover {
+          color: $maindark5;
+          background-color: $mainlight1;
+        }
+      }
+    }
+     .comment-form-url {
+        display: none;
+    }
+    @media (max-width: 600px) {
+      .comment-notes,
+      .comment-form-comment,
+      .comment-form-author,
+      .comment-form-email,
+      .comment-form-cookies-consent {
+        width: 90%;
+        align-items: center;
+      }
+      .form-submit {
+        width: 60%;
+      }
+    }
+  }
+}
+#cancel-comment-reply-link {
+  display: block;
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: right;
+  color: rgba(165, 42, 42, 0.8);
+  text-transform: none;
+}
+
+#author, #email, #comment { 
+font-size: 1.6rem;
+color:$maindark1; 
+} 
+.comment {
+    list-style: none;
+    margin: 0 auto 2rem;
+    border-right: .2rem solid $mainlight1;
+}

@@ -1,0 +1,85 @@
+.error-404 {
+  width: 100%;
+
+  header {
+    position: relative;
+    display: block;
+    min-height: 10rem;
+    user-select: none;
+    width: 102.4rem;
+    max-width: 90%;
+    margin: auto;
+    z-index: 1;
+    h2 {
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      font-size: clamp(15rem, 15vw, 40rem);
+      color: $maindark1;
+      opacity: 0.1;
+      font-weight: 800;
+      user-select: none;
+      display: block;
+      z-index: 1;
+    }
+    h3 {
+      margin: 8rem 0;
+      position: absolute;
+      top: 20rem;
+      width: 100%;
+      text-align: center;
+      font-size: clamp(7rem, 15vw, 40rem);
+      color: $maindark1;
+      opacity: 0.1;
+      font-weight: 800;
+      user-select: none;
+      display: block;
+      z-index: 1;
+    }
+    h4 {
+      color: $maindark1;
+      text-align: center;
+      display: block;
+      position: relative;
+      font-size: 2.8rem;
+      padding: 23rem 0 0;
+      user-select: none;
+      display: block;
+      z-index: 1;
+    }
+  }
+}
+
+
+  .search-form {
+    position: relative;
+    width: 90%;
+    max-width: 102.4rem;
+    margin: auto;
+    height: 5rem;
+    z-index: 3;
+    label input.search-field {
+      width: 100%;
+      height: 5rem;
+      line-height: 3rem;
+      background-color: transparent;
+      border: none;
+      border-bottom: 0.05rem solid $maindark1;
+      font-size: 2rem;
+      padding: 0 2rem;
+      border-radius: 0;
+      display: block;
+      z-index: 3;
+      &::placeholder {
+        color: $maindark1;
+        font-weight: bold;
+        display: none;
+      }
+    }
+    input.search-submit {
+           display: none;
+    }
+  }
+
+

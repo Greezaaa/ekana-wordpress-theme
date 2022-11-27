@@ -1,0 +1,184 @@
+@import "const";
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap");
+// font-family: "Exo 2", sans-serif;
+
+
+* {
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: hsla(0, 0, 0, 0);
+  -webkit-tap-highlight-color: #00000000;
+  -webkit-tap-highlight-color: #0000;
+}
+*::-webkit-scrollbar {
+  width: 0.01rem;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  font-display: fallback;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  background-color: $maindark1;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+      padding: 0;
+    margin: 0;
+}
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.skip-link {
+  position: absolute;
+  left: -999rem;
+  width: 990rem;
+}
+a.skip-link:active,
+a.skip-link:focus {
+  left: -0;
+  border: 3px #3399cc solid;
+  background-color: #fff;
+}
+.bubble-wrapper {
+  background-color: $maindark5;
+  width: calc(100% - 3rem);
+  margin-left: 0;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.castellano {
+  display: none;
+}
+.selectorIdioma {
+  position: fixed;
+  bottom: 12rem;
+  right: 0.5rem;
+  width: 8rem;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 1rem;
+  z-index: 999;
+  transform-origin: right bottom;
+  transform: rotate(-90deg);
+  text-align: center;
+  color: $mainlight1;
+  cursor: pointer;
+  &::before {
+    content: "eus";
+    position: absolute;
+    background-color: $mainlight1;
+    color: $maindark1;
+    left: 0;
+    top: 0;
+    transition: 0.2s ease-in-out;
+    padding: 0 0.5rem;
+    border: 0.1rem solid $mainlight1;
+  }
+  &::after {
+    content: "cas";
+    position: absolute;
+    background-color: $maindark1;
+    color: $maindark5;
+    right: 0;
+    top: 0;
+    transition: 0.2s ease-in-out;
+    padding: 0 0.5rem;
+    border: 0.1rem solid $mainlight1;
+  }
+  &.active {
+    &::before {
+      background-color: $maindark1;
+      color: $maindark5;
+      transition: 0.2s ease-in-out;
+    }
+    &::after {
+      background-color: $mainlight1;
+      color: $maindark1;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}
+
+@import "indexHeader", "hero", "somos", "servicios", "equipo", "indexFooter";
+
+.lds-ripple {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 70vh;
+  left: 50%;
+  margin-left: -40px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+#loadingDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' id='ekana-logo-footer' x='0px' y='0px' viewBox='0 0 120 120' style='enable-background:new 0 0 120 120;' xml:space='preserve' fill='%2324cd7a'%3E%3Cpolygon class='logo_path' points='104.8,51 61.6,94.1 61,94.7 60.4,94.1 26.7,60.2 26.1,59.6 26.7,59 58.5,27.2 59.1,26.6 59.7,27.2 72.5,39.9 73.1,40.5 72.5,41.1 52,61.2 62.1,71.3 93.9,39.9 58.6,4.5 4.3,59.2 60.9,116.2 115.5,61.8 ' /%3E%3C/svg%3E"),
+    $maindark1;
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 99999999999999999999999;
+}
+#indexMasthead {
+  display: block;
+}
+div#wpadminbar {
+  display: none;
+}

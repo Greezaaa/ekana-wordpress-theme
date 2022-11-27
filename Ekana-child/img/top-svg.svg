@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1969.6" style="enable-background:new 0 0 1920 1969.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#838D96;stroke-width:9;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#838D96;stroke-width:9;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#24CD7A;stroke:#838D96;stroke-width:9;stroke-miterlimit:10;}
+	.st3{opacity:0.25;}
+	.st4{opacity:0.2;fill:#244F7A;stroke:none;}
+	.st5{font-family: 'Exo 2', sans-serif; font-weight:800;}
+	.st6{font-size:11.5rem;}
+	.st7{fill:#314049;}
+</style>
+<g id="trx">
+	<g>
+		<line class="st0" x1="41.2" y1="1170.2" x2="210.6" y2="1204.2"/>
+		<line class="st0" x1="247.5" y1="1302.3" x2="419.6" y2="1286"/>
+		<path class="st0" d="M431.8,1380.8c4.5,33.7-30.4,65.6-77.5,71c-47.4,5.4-89.4-17.6-93.9-51.2c-1.7-12.7-13.5-102.3-13.5-102.3
+			c7.7-40.7,45-84.6,52.4-118c3-13.9,29.5-17,36-4.2c16.7,32.1,64.7,68.7,83.7,107.9C419,1284,430,1368.6,431.8,1380.8z"/>
+		<path class="st0" d="M193.5,1300c-6.1,33.5-49.1,54.3-96.1,46.4c-47-7.8-80.3-41.3-74.2-74.8c2.3-12.7,18.1-101.5,18.1-101.5
+			c19.8-36.7,69.2-68.4,86.2-98.3c7.1-12.5,33.3-8.1,35.9,5.9c6.4,35.2,40.9,83.4,47.3,125.9C210.6,1204,195.6,1287.8,193.5,1300z"
+			/>
+		<line class="st0" x1="146.8" y1="1066.3" x2="167.1" y2="93.4"/>
+		<line class="st1" x1="314.6" y1="1166.6" x2="167.1" y2="95.8"/>
+	</g>
+</g>
+<g id="saco">
+	<line class="st2" x1="1805.2" y1="97.2" x2="1722.9" y2="260"/>
+	<line class="st2" x1="1813.8" y1="93.4" x2="1895.6" y2="256.6"/>
+	<path class="st0" d="M1914.8,1420h-215.1c-13.9,0-25.3-17.8-25.3-39.6V296c0-21.8,11.4-39.6,25.3-39.6h215.1
+		c13.9,0,25.3,17.8,25.3,39.6v1084.5C1940.1,1402.2,1928.7,1420,1914.8,1420z"/>
+	<g class="st3">
+	</g>
+</g>
+<g id="saco_1_">
+	<g class="st3">
+	</g>
+</g>
+<text transform="matrix(-1.836970e-16 -1 1 -1.836970e-16 1883.2324 1363.7598)" class="st4 st5 st6">Zerbitzuak</text>
+<g id="top">
+	<g>
+		<ellipse class="st7" cx="92.9" cy="95.3" rx="12.9" ry="13.3"/>
+		<ellipse class="st7" cx="1828.1" cy="95.3" rx="12.9" ry="13.3"/>
+		<rect x="92.4" y="82" class="st7" width="1735.3" height="26.5"/>
+	</g>
+	<rect x="238.7" class="st7" width="8.4" height="82"/>
+	<rect x="1620" class="st7" width="8.4" height="82"/>
+	<rect x="929" class="st7" width="8.4" height="82"/>
+</g>
+</svg>

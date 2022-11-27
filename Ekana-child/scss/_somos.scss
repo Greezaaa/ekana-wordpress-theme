@@ -1,0 +1,130 @@
+.somos-wrapper {
+  margin-top: -10vh;
+  min-height: 120vh;
+  padding: 20vh 0 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  .section-title {
+    margin-top: 20vh;
+    transform: rotate(-90deg);
+    transform-origin: center bottom;
+    width: 80vh;
+    position: absolute;
+    left: 7rem;
+    top: -15rem;
+    opacity: 0.2;
+    user-select: none;
+    span {
+      display: inline-block;
+      font-size: 26rem;
+      font-weight: bolder;
+      color: $maindark2;
+      user-select: none;
+    }
+    #ekana-section-logo-wrapper {
+      fill: $mainlight5;
+      filter: drop-shadow($shadow2);
+      user-select: none;
+      width: 100%;
+    }
+  } /* section-title */
+
+  .somos-content {
+    width: 75%;
+    margin: auto 0 auto auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0 2rem;
+    align-items: center;
+    @media (max-width: 1440px) {
+      width: 100%;
+      margin: auto auto 4rem;
+    }
+    @media (max-width: 1024px) {
+      width: 100%;
+      margin: auto auto 4rem;
+      flex-direction: column;
+    }
+    .somos-info {
+      width: auto;
+      color: $maindark5;
+      padding: 0 3rem 0 0;
+      font-size: 1.4rem; 
+      text-shadow: $shadow2;
+      
+      .logoTextWrapper {
+        svg {
+          height: 3rem;
+          fill:$maindark5;
+           path:hover {
+            fill: $mainlight1;
+          }
+        }
+      }
+      @media (max-width: 1024px) {
+        width: auto;
+        margin: auto;
+        max-width: 90%;
+        padding: 0 1rem;
+      }
+      h3 {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+        font-style: italic;
+        width: 100%;
+        text-transform: uppercase;
+      } /* somos-info h3  */
+      p {
+        text-align: justify;
+        margin: 0 0 1rem;
+        font-size: 1.8rem;
+
+        line-height: 3rem;
+        &::first-line {
+          margin-left: 0.6rem;
+        }
+      } /* somos-info p  */
+    } /* somos-info */
+    
+    .somos-photos {
+      min-width: 55rem;
+      min-height: 60rem;
+      position: relative;
+      margin: 0 0 5rem 0;
+      img {
+        width: 30rem;
+        height: 40rem;
+        object-fit: cover;
+        position: absolute;
+        &.img1 {
+          left: 0;
+          top: 0;
+          z-index: 1;
+          &:hover {
+            z-index: 3;
+          }
+        } /* first image */
+
+        &.img2 {
+          bottom: 0;
+          right: 0;
+          z-index: 2;
+          &:hover {
+            z-index: 3;
+          }
+        } /* second image */
+      } /* somos-photos img */
+    } /* somos-photos */
+  } /* somos-content */
+  *::selection {
+    background-color: $mainlight3;
+    color: $maindark1;
+    text-shadow: none;
+  }
+} /* somos-wrapper */
+a.gu-href, a.gu-href:visited, a.gu-href:focus, a.gu-href:active, a.gu-href:hover {
+  font-size: 1.8rem;
+  text-shadow: $shadow2;
+  color: #f2f2f2;
+  }

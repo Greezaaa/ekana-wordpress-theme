@@ -1,0 +1,174 @@
+/*
+Theme Name: Ekana Theme tema hijo
+Theme URI: https://greezaaa.es
+Template: ekana_theme
+Author: Jeka
+Author URI: https://greezaaa.es
+Description: Tema hijo para pagina web de EKANA Zentroa :)
+Version: 3.15.3.1613348227
+Updated: 2021-02-15 00:17:07
+*/
+
+@import "const";
+* {
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: hsla(0, 0, 0, 0);
+  -webkit-tap-highlight-color: #00000000;
+  -webkit-tap-highlight-color: #0000;
+}
+*::-webkit-scrollbar {
+  width: 0.01rem;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  font-display: fallback;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+a,
+a:visited {
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: $maindark1;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    height: 0.2rem;
+    transition: 0.2s ease-in-out;
+    background-color: $mainlight1;
+    opacity: 0.4;
+  }
+}
+a:hover,
+a:focus,
+a:active {
+  position: relative;
+  &::after {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+  }
+}
+.skip-link {
+  position: absolute;
+  left: -999rem;
+  width: 990rem;
+}
+a.skip-link:active,
+a.skip-link:focus {
+  left: -0;
+  border: 3px #3399cc solid;
+  background-color: #fff;
+}
+main#primary {
+  .post-wrapper {
+    min-height: 80vh;
+    overflow: hidden;
+  }
+}
+.site-main {
+
+  .comments-area {
+    width: 102.4rem;
+    max-width: 90%;
+    margin: auto;
+  }
+}
+.type-post,
+.type-page,
+.no-results, 
+.type-kzkeventos{
+    margin: 2rem auto 3rem;
+    display: block;
+    position: relative;
+    border: .2rem solid #f2f2f2;
+    background-color: #d4d9dc9c;
+    backdrop-filter: blur(0.5rem);
+    box-shadow: $shadow1;
+    position: relative;
+    border: 2px solid white;
+  .entry-footer .cat-links {
+    margin-right: 2rem;
+  }
+  .entry-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2rem auto auto;
+    text-align: center;
+    color: $maindark1;
+}
+  .entry-header h2 a, .entry-header h1 a   {
+    text-decoration: none;
+    color: $maindark1;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .entry-meta .posted-on a .entry-date {
+    color: $maindark2;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  .entry-meta .author a {
+    text-transform: uppercase;
+    color: $maindark2;
+    font-size: 1.4rem;
+  }
+  .entry-content {
+    margin: 2rem auto 0;
+    ul {
+      padding-left: .6rem;
+    }
+    p {
+      text-align: left;
+    }
+    h2 {
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    h3 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    h4 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+  } 
+}
+label[for=comment] {
+  display: none;
+}
+@import "404", "search", "post", "kzk-post", "comments", "header", "footer", "kzk-index";
+
