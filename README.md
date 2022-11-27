@@ -18,4 +18,4 @@ Tema personalizado para Ekana, realizado desde scratch de  <a href="https://unde
 
 echo con <img src="https://user-images.githubusercontent.com/55212034/204116468-566c2703-f81a-46f9-831d-65a71b88461f.png" alt="drawing" width="20"/> 
 
-<img src="https://user-images.githubusercontent.com/55212034/204116543-a3d33b85-9d2b-4fc3-ae4c-018601717484.png" alt="drawing" width="20"/>
+<a href="https://www.linkedin.com/in/yevheniy-jeka-alekseyev-66a69119b/?locale=en_US" target="_blank" ><img src="https://user-images.githubusercontent.com/55212034/204116543-a3d33b85-9d2b-4fc3-ae4c-018601717484.png" alt="drawing" width="20"/></a>
