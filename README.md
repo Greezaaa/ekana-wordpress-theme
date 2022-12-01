@@ -1,17 +1,25 @@
 # Ekana Wordpress Theme
 
-<!-- <img src="https://user-images.githubusercontent.com/55212034/204115814-1051902e-0970-4587-9b7a-ca090baab95d.jpeg" alt="drawing" width="800"/> -->
-Tema personalizado para Ekana, realizado desde scratch de  <a href="https://underscores.me/">_undescore</a>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55212034/204937032-4f339fda-b16b-4402-bc04-72f041426353.png"> 
+</p>
 
+## Personal WordPress Theme from scratch for guys from Ekana Zentroa, Durango
 
-- _Diseño se realizo en Figma / Adobe Photoshop / Adobe Illustrator
-- _Lenguajes de programacion: PHP 7.2 / JavaScript / SCSS
-- _Traductor echo con JavaScript / JSON
-- _Custom PostType "Agenda KZK"
-- _Advanced Custom Field 
-- _Optimizacion SEO / YOATS 
-- _PageSpeed Insights score 96 
-- _Fotos propias de personal y de las instalaciónes
+ **Design:** ```Figma / Adobe Photoshop / Adobe Illustrator```
+ 
+ **Languages and Technologies:** ```PHP / MySQL / JavaScript / SCSS```
+ 
+ **CMS:** ```WordPress```
+ 
+ **Theme:** ```Custom theme from _undescore scratch```
+
+### **Futures**:
+- [x] Advanced custom fields
+- [x] Two languages translator with JavaScript
+- [x] Mobile, Tablet, PC - Responsive web design
+- [x] Yoats for better SEO Optimization
+- [x] Own Photos and illustrations
 
 <img src="https://user-images.githubusercontent.com/55212034/204116343-c441d93d-2dc7-4717-ac67-827edafe3086.gif" alt="drawing" width="800"/>
 
